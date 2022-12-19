@@ -16,7 +16,7 @@ def belongs_to(a_string, a_word):
     returns True if a_string contains a_word
     example: belongs_to("hey jude", "jude") => True
     """
-    return True if a_word in a_string else False
+    return a_word in a_string
 
 def count_repetition(a_string, a_substring):
     """
@@ -31,7 +31,7 @@ def is_a_question(a_string):
     returns True if a_string ends with a "?"
     example: is_a_question("How are you?") => True
     """
-    return True if a_string.endswith("?") else False
+    return a_string.endswith("?")
 
 def remove_surrounding_whitespaces(a_string):
     """
